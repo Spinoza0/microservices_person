@@ -19,11 +19,11 @@ public class Person {
     @NonNull
     private String name;
     @NonNull
-    private String locationName;
+    private String location;
 
 
-    public Person(@NonNull String name, @NonNull String locationName) {
+    public Person(@NonNull String name, @NonNull String location) {
         this.name = name;
-        this.locationName = locationName;
+        this.location = location;
     }
 }
